@@ -11,4 +11,10 @@ class TextInputs {
         println("Kolik hráčů má hrát ?")
         return readln().toInt()
     }
+
+    fun getPlayerInput(): IntArray{
+        println("Kam chceš položit svůj symbol")
+        val v = readln().split(" ")
+        return intArrayOf(v[0].toInt(), v[1].toInt())
+    }
 }

@@ -1,4 +1,4 @@
-package game.functionGame
+package game.logicalPart
 
 import game.iO.TextInputs
 

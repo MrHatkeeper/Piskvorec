@@ -1,4 +1,4 @@
-import game.functionGame.Game
+import game.logicalPart.Game
 
 fun main() {
     val game = Game()
